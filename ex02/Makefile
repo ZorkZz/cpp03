@@ -1,8 +1,8 @@
-NAME = ex01
+NAME = ex02
 
-SRC = main.cpp ClapTrap.cpp ScavTrap.cpp
+SRC = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 
-HEADER = ClapTrap.hpp ScavTrap.hpp
+HEADER = ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
 
 OBJ = $(SRC:%.cpp=%.zizi)
 
