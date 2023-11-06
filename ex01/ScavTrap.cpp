@@ -23,7 +23,7 @@ void	ScavTrap::attack(const std::string &target)
 {
 	if (this->_attack_damage > 0 && this->_energy_points > 0)
 	{
-		std::cout << "ScavTrap " << this->_name << " attacks " << target <<",causing " << this->_attack_damage << " points of damage!" << std::endl;
+		std::cout << "ScavTrap " << this->_name << " attacks " << target <<", causing " << this->_attack_damage << " points of damage!" << std::endl;
 		this->_attack_damage = 0;
 		this->_energy_points--;
 	}

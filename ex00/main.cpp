@@ -2,7 +2,7 @@
 
 int	main(void)
 {
-	ClapTrap clap("clapclap");
+	ClapTrap clap;
 
 	clap.takeDamage(10);
 	clap.attack("TARGET");
